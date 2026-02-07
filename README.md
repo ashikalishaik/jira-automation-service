@@ -28,7 +28,7 @@ This project demonstrates real-world API design, authentication flows, and integ
 ---
 
 ## High-Level Architecture
-
+```bash
 Client (Browser / Postman)
 |
 | OAuth 2.0 Authorization
@@ -42,9 +42,10 @@ Jira Automation Service (FastAPI)
 | REST API Calls
 v
 Jira Cloud APIs
+```
 
 ## Project Structure
-
+```bash
 jira-automation-service/
 ├── app/
 │ ├── main.py # FastAPI application entry point
@@ -69,7 +70,7 @@ jira-automation-service/
 
 
 ---
-
+```
 ## Authentication Flow (OAuth 2.0)
 
 1. User hits `/auth/login`
